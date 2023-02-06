@@ -757,6 +757,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 12px 24px;
+  background-color: var(--footer-text-color);
   border: 1px solid var(--footer-text-color);
   transition-property: background-color, color, border, box-shadow;
   transition-duration: 250ms;
