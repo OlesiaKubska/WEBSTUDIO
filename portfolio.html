@@ -57,7 +57,88 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="menu-open-btn" data-menu-open>
+          <svg class="menu-open-btn-icon" width="40" height="40">
+            <use href="./imeges/main-page/icons.svg#icon-mob-menu-hamburger"></use>
+          </svg>
+        </button>
       </div>
+
+      <div class="mob-menu is-hidden" data-menu>
+        <div class="mob-container">
+          <button type="button" class="mob-menu-close-btn" data-menu-close>
+            <svg class="mob-menu-close-btn-icon" width="8" height="8">
+              <use href="./imeges/main-page/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="mob-menu-item">
+                <a class="mob-menu-link link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mob-menu-address">
+            <ul class="contacts-mob-menu-list list">
+              <li class="contacts-mob-menu-item">
+                <a class="contacts-mob-menu-link link" href="tel:+110001111111"
+                  >+11(000)111-11-11</a
+                >
+              </li>
+              <li class="contacts-mob-menu-item">
+                <a class="contacts-mob-menu-link-second link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="mob-menu-social">
+            <ul class="mob-menu-social-list list">
+              <li class="mob-menu-social-item">
+                <a href="#" class="mob-menu-social-link link">
+                  <svg class="mob-menu-social-icon" width="24" height="24">
+                    <use
+                      href="./imeges/main-page/icons.svg#icon-instagram-2 "
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-social-item">
+                <a href="#" class="mob-menu-social-link link">
+                  <svg class="mob-menu-social-icon" width="24" height="24">
+                    <use href="./imeges/main-page/icons.svg#icon-twitter-1"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-social-item">
+                <a href="#" class="mob-menu-social-link link">
+                  <svg class="mob-menu-social-icon" width="24" height="24">
+                    <use
+                      href="./imeges/main-page/icons.svg#icon-facebook-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mob-menu-social-item">
+                <a href="#" class="mob-menu-social-link link">
+                  <svg class="mob-menu-social-icon" width="24" height="24">
+                    <use
+                      href="./imeges/main-page/icons.svg#icon-linkedin-1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </header>
     <main>
       <section class="filters section">
@@ -362,5 +443,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>

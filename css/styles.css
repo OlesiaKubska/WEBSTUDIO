@@ -44,6 +44,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .section {
   padding-bottom: 120px;
   padding-top: 120px;
