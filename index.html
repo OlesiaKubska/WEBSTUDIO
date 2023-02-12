@@ -211,7 +211,7 @@
             <li class="gallery-item">
               <img
                 class="gallery-img"
-                srcset="./imeges/main-page/monitor.jpg 1x, ./imeges/main-page/monitor-2x.jpg 2x"
+                srcset="./imeges/main-page/monitor-2x.jpg 2x"
                 src="./imeges/main-page/monitor.jpg"
                 alt="monitor"
                 width="360"
@@ -221,7 +221,7 @@
             <li class="gallery-item">
               <img
                 class="gallery-img"
-                srcset="./imeges/main-page/screen.jpg 1x, ./imeges/main-page/screen-2x.jpg 2x"
+                srcset="./imeges/main-page/screen-2x.jpg 2x"
                 src="./imeges/main-page/screen.jpg"
                 alt="screen"
                 width="360"
@@ -231,7 +231,7 @@
             <li class="gallery-item">
               <img
                 class="gallery-img"
-                srcset="./imeges/main-page/phone.jpg 1x, ./imeges/main-page/phone-2x.jpg 2x"
+                srcset="./imeges/main-page/phone-2x.jpg 2x"
                 src="./imeges/main-page/phone.jpg"
                 alt="phone"
                 width="360"
@@ -246,14 +246,18 @@
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-item">
-              <img
-                class="team-img"
-                srcset="./imeges/main-page/photo_1.jpg 1x, ./imeges/main-page/photo-1-2x.jpg 2x"
-                src="./imeges/main-page/photo_1.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source srcset="./imeges/main-page/photo-1.jpg 1x, ./imeges/main-page/photo-1-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./imeges/main-page/tablet/photo-1-tab.jpg 1x, ./imeges/main-page/tablet/photo-1-tab-2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./imeges/main-page/mobile/photo-1-mob.jpg 1x, ./imeges/main-page/mobile/photo-1-mob-2x.jpg 2x" media="(min-width: 320px)"/>
+                <img
+                  class="team-img"
+                  src="./imeges/main-page/photo-1.jpg"
+                  alt="Mark Guerrero"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <h3 class="team-suptitle section-suptitle">Mark Guerrero</h3>
               <p class="team-text section-text">Product Designer</p>
               <ul class="team-social-list list">
@@ -296,14 +300,18 @@
               </ul>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                srcset="./imeges/main-page/photo_2.jpg 1x, ./imeges/main-page/photo-2-2x.jpg 2x"
-                src="./imeges/main-page/photo_2.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
+              <picture>
+                <source srcset="./imeges/main-page/photo-2.jpg 1x, ./imeges/main-page/photo-2-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./imeges/main-page/tablet/photo-2-tab.jpg 1x, ./imeges/main-page/tablet/photo-2-tab-2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./imeges/main-page/mobile/photo-2-mob.jpg 1x, ./imeges/main-page/mobile/photo-2-mob-2x.jpg 2x" media="(min-width: 320px)"/>
+                <img
+                  class="team-img"
+                  src="./imeges/main-page/photo-2.jpg"
+                  alt="Tom Ford"
+                  width="264"
+                  height="260"
+                />
+              </picture>
               <h3 class="team-suptitle section-suptitle">Tom Ford</h3>
               <p class="team-text section-text">Frontend Developer</p>
               <ul class="team-social-list list">
@@ -346,14 +354,18 @@
               </ul>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                srcset="./imeges/main-page/photo_3.jpg 1x, ./imeges/main-page/photo-3-2x.jpg 2x"
-                src="./imeges/main-page/photo_3.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
+              <picture> 
+                <source srcset="./imeges/main-page/photo-3.jpg 1x, ./imeges/main-page/photo-3-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./imeges/main-page/tablet/photo-3-tab.jpg 1x, ./imeges/main-page/tablet/photo-3-tab-2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./imeges/main-page/mobile/photo-3-mob.jpg 1x, ./imeges/main-page/mobile/photo-3-mob-2x.jpg 2x" media="(min-width: 320px)"/>
+                <img
+                  class="team-img"
+                  src="./imeges/main-page/photo-3.jpg"
+                  alt="Camila Garcia"
+                  width="264"
+                  height="260"
+                />
+              </picture> 
               <h3 class="team-suptitle section-suptitle">Camila Garcia</h3>
               <p class="team-text section-text">Marketing</p>
               <ul class="team-social-list list">
@@ -396,14 +408,18 @@
               </ul>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                srcset="./imeges/main-page/photo_4.jpg 1x, ./imeges/main-page/photo-4-2x.jpg 2x"
-                src="./imeges/main-page/photo_4.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
+              <picture> 
+                <source srcset="./imeges/main-page/photo-4.jpg 1x, ./imeges/main-page/photo-4-2x.jpg 2x" media="(min-width: 1200px)"/>
+                <source srcset="./imeges/main-page/tablet/photo-4-tab.jpg 1x, ./imeges/main-page/tablet/photo-4-tab-2x.jpg 2x" media="(min-width: 768px)"/>
+                <source srcset="./imeges/main-page/mobile/photo-4-mob.jpg 1x, ./imeges/main-page/mobile/photo-4-mob-2x.jpg 2x" media="(min-width: 320px)"/>
+                <img
+                  class="team-img"
+                  src="./imeges/main-page/photo-4.jpg"
+                  alt="Daniel Wilson"
+                  width="264"
+                  height="260"
+                />
+              </picture> 
               <h3 class="team-suptitle section-suptitle">Daniel Wilson</h3>
               <p class="team-text section-text">UI Designer</p>
               <ul class="team-social-list list">
