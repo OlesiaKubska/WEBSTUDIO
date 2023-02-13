@@ -51,6 +51,8 @@ body {
 .section {
   padding-bottom: 120px;
   padding-top: 120px;
+  padding-bottom: 2vmin;
+  padding-top: 2vmin;
 }
 
 .section-title {
@@ -78,8 +80,8 @@ body {
 .container {
   min-width: 320px;
   max-width: 1158px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
