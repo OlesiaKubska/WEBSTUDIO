@@ -51,8 +51,6 @@ body {
 .section {
   padding-bottom: 120px;
   padding-top: 120px;
-  padding-bottom: 2vmin;
-  padding-top: 2vmin;
 }
 
 .section-title {
@@ -835,11 +833,6 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-  .section {
-    padding-bottom: 96px;
-    padding-top: 96px;
-  }
-  
   .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -855,6 +848,11 @@ body {
 }
 
 @media screen and (max-width: 1199px) {
+  .section {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
+  
   .gallery {
     display: none;
   }
