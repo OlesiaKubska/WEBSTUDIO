@@ -865,9 +865,7 @@ body {
     font-size: 10px;
   }
 
-  .project-link-img {
-    max-width: 396px;
-  }
+  
 }
 
 @media screen and (max-width: 1199px) {
