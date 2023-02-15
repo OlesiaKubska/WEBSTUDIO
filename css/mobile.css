@@ -9,8 +9,8 @@
 
     .menu-open-btn {
         cursor: pointer;
-        width: 32px;
-        height: 22px;
+        width: 30px;
+        height: 18px;
         background-color: transparent;
         display: block;
         border: none;
@@ -29,7 +29,6 @@
         width: 100%;
         height: 100%;
         z-index: 1;
-        max-height: 796px;
         background-color: #ffffff;
         transition: visibility, opacity var(--footer-text-color);
         transition-duration: 250ms;
@@ -112,6 +111,10 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    .mob-menu-link-contacts {
+        color: #4D5AE5;
+    }
+
     .mob-menu-link:hover,
     .mob-menu-link:focus {
         color: #4D5AE5;
@@ -130,15 +133,11 @@
     .contacts-mob-menu-link {
         font-weight: 600;
         font-size: 24px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
         color: #4D5AE5;
     }
 
     .contacts-mob-menu-link-second {
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
+        font-size: 16px;
         color: #434455;
     }
 
@@ -201,19 +200,6 @@
     .hero-title {
         max-width: 318px;
         font-size: 34px;
-    }
-
-    .modal {
-        max-width: 320px;
-        padding: 72px 16px 16px 16px;
-    }
-    
-    .modal-text {
-        font-size: 12px;
-    }
-
-    .modal-form-chek-desc {
-        font-size: 10px;
     }
     
     .feature-list {
@@ -333,5 +319,23 @@
         flex-direction: column;
         column-gap: 0;
         margin-top: 48px;
-    }   
+    }
+
+    @media screen and (min-width: 428px) and (max-width: 767px) {
+        .mob-container {
+            width: 428px;
+        }
+        
+        .contacts-mob-menu-list {
+            gap: 24px;
+        }
+
+        .contacts-mob-menu-link {
+            font-size: 36px;
+        }
+    
+        .contacts-mob-menu-link-second {
+            font-size: 22px;
+        }
+    }
 }

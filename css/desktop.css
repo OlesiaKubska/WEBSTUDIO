@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
     .container {
-        min-width: 1200px;
+        min-width: 1158px;
     }
 
     .section {
@@ -57,7 +57,6 @@
 
     .customers-list {
         max-width: 1128px;
-        justify-content: center;
     }
 
     .customers-item {

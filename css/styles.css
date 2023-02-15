@@ -835,7 +835,7 @@ body {
 @media screen and (max-width: 767px) {
   .header {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 22px;
   }
 
   .header-list {
@@ -845,12 +845,25 @@ body {
   .contacts-address {
     display: none;
   }
+
+  .modal {
+    max-width: 320px;
+    padding: 72px 16px 16px 16px;
+  }
+
+  .modal-text {
+    font-size: 12px;
+  }
+
+  .modal-form-chek-desc {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 1199px) {
   .section {
-    padding-bottom: 96px;
-    padding-top: 96px;
+    padding-bottom: 112px;
+    padding-top: 112px;
   }
   
   .gallery {

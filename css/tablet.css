@@ -57,7 +57,7 @@
         font-size: 56px;
         line-height: 1.07;
     }
-
+    
     .feature-list {
         flex-wrap: wrap;
         flex-direction: row;
@@ -85,19 +85,15 @@
         margin-bottom: 0;
     }
 
-    .customers {
-        display: flex;
-        justify-content: center;
-    }
-    
     .customers-list {
         column-gap: 24px;
         row-gap: 72px;
-        max-width: 552px;
+        justify-content: center;
     }
 
     .customers-item {
         width: calc((100% - 48px) / 3);
+        max-width: 168px;
     }
 
     .footer-container {
