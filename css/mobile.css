@@ -45,7 +45,7 @@
         position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -97,7 +97,7 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 40px;
-        margin-top: 32px;
+        margin-bottom: 80px;
     }
 
     .mob-menu-link {
@@ -351,6 +351,10 @@
         .filters-item:not(:last-child) {
             margin-bottom: 16px;
             margin-right: 24px;
+        }
+
+        .project-link-img {
+            width: 100%;
         }
     }
 }
