@@ -832,6 +832,12 @@ body {
   transform: translateY(0);
 }
 
+@media screen and (max-width: 427px) {
+  .filters-btn {
+    font-size: 14px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .header {
     padding-top: 24px;
