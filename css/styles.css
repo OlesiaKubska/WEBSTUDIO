@@ -63,6 +63,7 @@ body {
 }
 
 .section-suptitle {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -850,19 +851,6 @@ body {
 
   .contacts-address {
     display: none;
-  }
-
-  .modal {
-    max-width: 320px;
-    padding: 72px 16px 16px 16px;
-  }
-
-  .modal-text {
-    font-size: 12px;
-  }
-
-  .modal-form-chek-desc {
-    font-size: 10px;
   }
 }
 

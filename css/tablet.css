@@ -58,6 +58,19 @@
         line-height: 1.07;
     }
     
+    .modal {
+        max-width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+
+    .modal-text {
+        font-size: 16px;
+    }
+    
+    .modal-form-chek-desc {
+        font-size: 12px;
+    }
+
     .feature-list {
         flex-wrap: wrap;
         flex-direction: row;
@@ -127,7 +140,7 @@
 
     .filters {
         padding-top: 64px;
-        padding-bottom: 96px;
+        padding-bottom: 112px;
     }
 
     .filters-list {
