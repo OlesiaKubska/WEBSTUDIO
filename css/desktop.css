@@ -76,9 +76,15 @@
         gap: 96px;
     }
 
+    .filters {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+
     .project-list {
         gap: 24px;
         row-gap: 48px;
+        margin-top: 72px;
     }
 
     .project-item {
