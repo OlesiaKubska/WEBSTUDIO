@@ -837,6 +837,10 @@ body {
   .filters-btn {
     font-size: 14px;
   }
+
+  .filters-list {
+    gap: 16px 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {

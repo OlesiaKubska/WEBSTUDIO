@@ -342,7 +342,7 @@
     .filters-list {
         flex-wrap: wrap;
         justify-content: flex-start;
-        gap: 16px 24px;
+        gap: 14px;
     }
 
     .project-list {
@@ -387,6 +387,10 @@
         .hero-title {
             max-width: 320px;
             font-size: 36px;
+        }
+
+        .filters-list {
+            gap: 16px 24px;
         }
     }
 }
